@@ -109,7 +109,7 @@
       <article>
         <!-- insert iframe from youtube -->
 
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -121,22 +121,43 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img alt="firefox browser logo"
+               srcset="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_120/v1595585611/Mozilla%20splash%20page/firefox_logo-only_RGB_hibguz.png 120w,
+                       https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/firefox_logo-only_RGB_hibguz.png 400w"
+               sizes="(max-width: 500px) 120px, 400px"        
+               src="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/firefox_logo-only_RGB_hibguz.png">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img alt=""
+               srcset="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_120/v1595585611/Mozilla%20splash%20page/mozilla-dinosaur-head_hi7wbw.png 120w,
+                       https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/mozilla-dinosaur-head_hi7wbw.png 400w"
+               sizes="(max-width: 500px) 120px, 400px"
+               src="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/mozilla-dinosaur-head_hi7wbw.png">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img alt=""
+               srcset="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_120/v1595585611/Mozilla%20splash%20page/firefox-addons_bjzhds.jpg 120w,
+                      https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/firefox-addons_bjzhds.jpg 400w"
+               sizes="(max-width: 500px) 120px, 400px"
+               src="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_400/v1595585611/Mozilla%20splash%20page/firefox-addons_bjzhds.jpg">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img alt=""
+               src="https://res.cloudinary.com/dkk4y4hnx/image/upload/v1595585610/Mozilla%20splash%20page/mdn_sgemie.svg"
+               sizes="(max-width: 500px) 120px, 400px">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600px)"
+                  srcset="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_crop,dpr_auto,f_auto,g_face,h_647,q_auto,w_600/v1595585614/Mozilla%20splash%20page/red-panda_hok4sh.jpg"
+                  >          
+          <img alt=""
+               src="https://res.cloudinary.com/dkk4y4hnx/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_1200/v1595585614/Mozilla%20splash%20page/red-panda_hok4sh.jpg">  
+        </picture>
       </div>
 
     </main>
